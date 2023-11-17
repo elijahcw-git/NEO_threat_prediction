@@ -35,13 +35,15 @@
                 <input type="submit" value="Predict" id="btn" /><br />
             </form>
 
-            {% if prediction_text %}
-            <h2>Prediction:</h2>
-            <p>{{ prediction_text }}</p>
-            {% endif %}
+            <div id="prediction-container">
+                {% if prediction_text %}
+                <h2>Prediction:</h2>
+                <p>{{ prediction_text }}</p>
+                {% endif %}
+            </div>
         </div>
 
-        <h4>Elijah C Walker</h4>
-        <h4>ANA680, National University</h4>
+        <p>Elijah C Walker</p>
+        <p>ANA680, National University</p>
     </body>
 </html>

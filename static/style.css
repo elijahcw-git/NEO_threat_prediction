@@ -1,8 +1,8 @@
 /* style.css */
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background: #fff0f0; /* Light red wine color for background */
-    color: #381c2a; /* Dark red for text, reminiscent of red wine */
+    background: #0c1443; /* Light red wine color for background */
+    color: #ffffff; /* Dark red for text, reminiscent of red wine */
     margin: 0;
     padding: 0;
     display: flex;
@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    color: #800000; /* Maroon color for headers */
+    color: #5f74e9; /* Maroon color for headers */
     text-align: center;
     margin-bottom: 30px;
 }
@@ -21,7 +21,7 @@ h1 {
 .content-container {
     width: 700px; /* Adjust width as necessary */
     padding: 20px;
-    background-color: #faf0f4; /* Soft pinkish-white, like the color of rosé */
+    background-color: #ffffff; /* Soft pinkish-white, like the color of rosé */
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -30,13 +30,14 @@ label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
+    color: black;
 }
 
 input[type="text"] {
     width: 100%; /* Full width within the container */
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -48,7 +49,7 @@ input[type="text"] {
     text-align: center;
     margin-bottom: 20px;
     border-radius: 5px;
-    background-color: #8b0000; /* Deep red, similar to a bold red wine */
+    background-color: #ff7f50; /* Deep red, similar to a bold red wine */
     color: #ffffff;
     font-size: 16px;
     cursor: pointer;
@@ -59,10 +60,11 @@ button:hover {
     background-color: #600000; /* Darker red for hover effect */
 }
 
-.prediction {
+#prediction-container {
     margin-top: 50px;
     padding: 15px;
-    background-color: #e1d5f9; /* Keeping a light color for contrast */
+    background-color: #000000; /* Keeping a light color for contrast */
+    color: #ffffff;
     border-radius: 5px;
     text-align: center;
 }
