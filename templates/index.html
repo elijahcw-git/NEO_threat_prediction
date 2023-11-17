@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hazardous Asteroid Prediction</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="{{ url_for('static', filename='style.css') }}"
+        />
+        <link rel="stylesheet" type="text/css" href="../static/style.css" />
+    </head>
+    <body>
+        <h1>Hazardous Asteroid Prediction</h1>
+        <div class="content-container">
+            <form method="POST" action="/">
+                <label for="diameter_min">Diameter Min (in kilometers):</label>
+                <input type="text" name="diameter_min" required /><br />
+
+                <label for="diameter_max">Diameter Max (in kilometers):</label>
+                <input type="text" name="diameter_max" required /><br />
+
+                <label for="relative_velocity"
+                    >Relative Velocity (in km/s):</label
+                >
+                <input type="text" name="relative_velocity" required /><br />
+
+                <label for="miss_distance"
+                    >Miss Distance (in lunar distances):</label
+                >
+                <input type="text" name="miss_distance" required /><br />
+
+                <label for="absolute_magnitude">Absolute Magnitude:</label>
+                <input type="text" name="absolute_magnitude" required /><br />
+
+                <input type="submit" value="Predict" id="btn" /><br />
+            </form>
+
+            {% if prediction_text %}
+            <h2>Prediction:</h2>
+            <p>{{ prediction_text }}</p>
+            {% endif %}
+        </div>
+
+        <h4>Elijah C Walker</h4>
+        <h4>ANA680, National University</h4>
+    </body>
+</html>
