@@ -2,7 +2,6 @@
 
 Heroku:
 https://elijahcw-final-75b3048251ed.herokuapp.com/
-![image](https://github.com/elijahcw-git/NEO_threat_prediction/assets/85442180/d31b585d-4c9d-46db-997d-fab909870cf3)
 
 ## Overview
 
