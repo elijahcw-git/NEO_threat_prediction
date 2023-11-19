@@ -1,5 +1,9 @@
 # NASA NEO Hazardous Asteroid Prediction using K-Nearest Neighbors (KNN)
 
+Heroku:
+https://elijahcw-final-75b3048251ed.herokuapp.com/
+![image](https://github.com/elijahcw-git/NEO_threat_prediction/assets/85442180/d31b585d-4c9d-46db-997d-fab909870cf3)
+
 ## Overview
 
 This project is developed to predict whether Near-Earth Objects (NEOs) in the NASA NEO dataset are hazardous or not using the K-Nearest Neighbors (KNN) algorithm. The objective is to achieve a model accuracy of 93% by selecting specific features from the dataset that are most relevant for the prediction.
